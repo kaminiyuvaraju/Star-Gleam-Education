@@ -1,0 +1,36 @@
+#timer {
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  #header {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 30px;
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+  }
+  
+  #grid {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+  }
+  
+  #link:hover {
+    opacity: 0.5;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  

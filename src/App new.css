@@ -1,0 +1,57 @@
+/* Reset default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Use a standard font for better cross-browser compatibility */
+}
+
+/* Main container styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure app takes up full viewport height */
+}
+
+/* Navbar styles */
+.Navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Container for main content */
+.container {
+  flex: 1; /* Grow to fill remaining vertical space */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Footer styles */
+.Footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles for specific components */
+/* Adjust styles for larger screens using media queries */
+@media (min-width: 768px) {
+  /* Increase padding and font size for larger screens */
+  .container {
+    padding: 40px;
+  }
+
+  /* Adjust layout for larger screens */
+  .App {
+    flex-direction: row; /* Display components side by side */
+  }
+
+  /* Responsive grid layout for components */
+  .content {
+    flex: 1;
+    margin-right: 20px;
+  }
+}
